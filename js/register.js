@@ -85,7 +85,7 @@
             method: 'POST',
             params: { loginId, nickname, loginPwd },
         })
-        res && window.location.replace('/聊天机器人/index.html')
+        res && window.location.replace(baseUrl + 'index.html')
     }
 
 

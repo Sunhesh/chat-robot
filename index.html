@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聊天界面</title>
+    <script src="./js/common.js"></script>
     <script>
         if (!sessionStorage.token) {
-            window.location.replace('./login.html');
+            window.location.replace(baseUrl + 'login.html');
         }
     </script>
     <link rel="stylesheet" href="./css/common.css">
@@ -21,16 +22,6 @@
             <div class="left-wrapper">
                 <h2 class="left-title">人工智能聊天机器人</h2>
                 <div class="content-body">
-                    <!-- <div class="chat-container robot-container">
-                        <img src="./img/robot.jpg" alt="">
-                        <div class="chat-txt">
-                            您好！我是腾讯机器人，非常欢迎您的到来，有什么想和我聊聊的吗？
-                        </div>
-                    </div> -->
-                    <!-- <div class="chat-container avatar-container">
-                        <img src="./img/avtar.png" alt="">
-                        <div class="chat-txt">你好</div>
-                    </div> -->
                 </div>
                 <div class="left-footer">
                     <textarea placeholder="在这里输入要发送的消息" class="input-container" name="" id="" cols="30" rows="10"></textarea>

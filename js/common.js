@@ -1,0 +1,1 @@
+const baseUrl = '/chat-robot/'

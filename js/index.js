@@ -160,7 +160,7 @@
     const onCloseBtnClick = () => {
         /* 清空sessionStorage */
         sessionStorage.removeItem('token')
-        window.location.replace('/聊天机器人/login.html')
+        window.location.replace(baseUrl + 'login.html')
             /* 界面的跳转 */
     }
 

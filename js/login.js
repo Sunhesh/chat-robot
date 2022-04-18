@@ -62,7 +62,7 @@
                 loginPwd
             }
         })
-        result && window.location.replace('/聊天机器人/index.html')
+        result && window.location.replace(baseUrl + 'index.html')
     }
     init();
 })()
