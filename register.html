@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1 class="title">注册用户</h1>
+        <form id="formContainer" class="form-wrapper register">
+            <div class="form-item">
+                <input id="userName" class="text" type="text" placeholder="请输入用户名">
+            </div>
+            <div class="form-item nick-name">
+                <input id="userNickname" class="text" type="text" placeholder="请输入用户昵称">
+            </div>
+            <div class="form-item user-password">
+                <input id="userPassword" class="text" type="password" placeholder="请输入注册密码">
+            </div>
+            <div class="form-item">
+                <input id="userConfirmPassword" type="password" placeholder="请再次输入密码确认">
+            </div>
+            <input class="signin" type="submit" value="注册">
+        </form>
+        <div class="copy-rights">
+            <p>Copyright © 2015.Company name All rights reserved.<a class="switch-register" href="/login.html">已有账号，立即登录</a></p>
+        </div>
+    </div>
+
+
+    <script src="./js/http.js"></script>
+    <script src="./js/register.js"></script>
+
+</body>
+
+</html>

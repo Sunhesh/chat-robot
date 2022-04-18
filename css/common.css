@@ -1,0 +1,35 @@
+body,
+html,
+img,
+ul,
+li,
+input,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
